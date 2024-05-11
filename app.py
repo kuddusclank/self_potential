@@ -18,12 +18,7 @@ st.markdown(
 """,
     unsafe_allow_html=True,
 )
-hide_github_icon = """
-#GithubIcon {
-  visibility: hidden;
-}
-"""
-st.markdown(hide_github_icon, unsafe_allow_html=True)
+
 st.write("# Welcome To GeoGenix ! 👋")
 st.write("  ### Self Potential(SP) Survey Digital Datasheet")
 
