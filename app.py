@@ -27,7 +27,7 @@ st.markdown(
    Welcome to Geogenix, your go-to resource for geophysical exploration and insights. 
    Our mission is to bridge the gap between theory and practice, providing geoscientists, 
    researchers, and enthusiasts with valuable information and tools. 
-    ### Want to more tools?
+    ### Want more tools?
     - Check out [GeoGenix HomePage](https://geogenix.000webhostapp.com/)
   
 """
