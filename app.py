@@ -37,9 +37,9 @@ def switching():
 
 st.subheader("SP Survey↭")
 SurveyName = st.text_input("Interval Name")
-Longitude = st.number_input(label= "Logitude ", placeholder="Degree Decimal",min_value=0.00)
-Lattitude=st.number_input("Lattitude", placeholder="Degree Decimal",min_value=0.00)
-Elevation=st.number_input("Elevation", placeholder="Metres",min_value=0.00)
+Longitude = st.number_input(label= "Logitude ", placeholder="Degree Decimal",format="%.4f")
+Lattitude=st.number_input("Lattitude", placeholder="Degree Decimal",format="%.4f")
+Elevation=st.number_input("Elevation", placeholder="Metres",format="%.2f")
 Interval_Spacing=st.number_input("Spacing Interval",min_value=1)
 if(st.button("Proceed",type='primary')):
     md.SurveyName=SurveyName
